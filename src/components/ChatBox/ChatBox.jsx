@@ -133,7 +133,7 @@ const ChatBox = () => {
           {Date.now()-chatUser.userData.lastSeen <= 70000 ? 
           <img className="dot" src={assets.green_dot} alt="" /> : null}
         </p>
-        <img src={assets.help_icon} className="help" alt="" />
+        {/* <img src={assets.help_icon} className="help" alt="" /> */}
         <img onClick={()=>setChatVisible(false)} src={assets.arrow_icon} className="arrow" alt="" />
       </div>
 
@@ -171,7 +171,7 @@ const ChatBox = () => {
     </div>
   ) : (
     <div className={`chat-welcome ${chatVisible ? "":"hidden"}`}>
-      <img src={assets.logo_icon} alt="" />
+      <img src={assets.logo} alt="" />
       <p>Chat anytime, anywhere</p>
     </div>
   );

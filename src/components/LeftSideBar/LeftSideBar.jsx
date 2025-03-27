@@ -148,6 +148,7 @@ const LeftSideBar = () => {
       <div className="ls-top">
         <div className="ls-nav">
           <img src={assets.logo} className="logo" alt="" />
+          <h3>BuzzChat</h3>
           <div className="menu">
             <img src={assets.menu_icon} alt="" />
             <div className="sub-menu">

@@ -1,6 +1,6 @@
 .login{
     min-height: 100vh;
-    background: url(/background.png) no-repeat;
+    background: url('bg2.avif') no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -8,6 +8,10 @@
 }
 .login .logo{
     width: max(20vw, 200px);
+}
+.login img{
+    width: 278px;
+    height: 278px;
 }
 .login-form{
     background: white;

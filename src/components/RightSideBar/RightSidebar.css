@@ -1,10 +1,10 @@
 .rs{
     color: white;
-    background: #001030;
+    background: #66BB6A;
     position: relative;
     height: 75vh;
     overflow-y: scroll;
-} 
+}
 .rs-profile{
     padding-top: 60px;
     text-align: center;
@@ -35,7 +35,7 @@
 }
 
 .rs hr{
-    border-color: #ffffff50;
+    border-color: #A5D6A7;
     margin: 15px 0px;
 }
 
@@ -63,7 +63,7 @@
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    background: #077eff;
+    background: #81C784;
     color: white;
     border: none;
     font-size: 12px;
@@ -72,6 +72,7 @@
     border-radius: 20px;
     cursor: pointer;
 }
+
 
 @media (max-width:900px) {
     .rs{

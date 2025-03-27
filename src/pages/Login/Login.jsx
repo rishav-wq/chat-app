@@ -21,8 +21,10 @@ const Login = () => {
   }
 
   return (
+      
     <div className='login'>
-      <img src={assets.logo_big} alt="" className="logo" />
+    
+      < div className="logo" />
       <form onSubmit={onSubmitHandler} className="login-form">
         <h2>{currState}</h2>
         {currState === "Sign up" ? <input onChange={(e) => setUserName(e.target.value)} value={userName} type="text" placeholder='username' className="form-input" required /> : null}
@@ -43,6 +45,7 @@ const Login = () => {
         </div>
       </form>
     </div>
+
   )
 }
 
